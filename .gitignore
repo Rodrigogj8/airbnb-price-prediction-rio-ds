@@ -1,0 +1,27 @@
+
+# Ignore pastas de IDEs
+.idea/
+
+# Ignore checkpoints do Jupyter
+.ipynb_checkpoints/
+
+# Ignore caches e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore arquivos temporários
+*.swp
+*.bak
+*.tmp
+
+# Ignore notebooks temporários
+*checkpoint.ipynb
+
+# Ignore arquivos de sistema (Windows / Mac)
+Thumbs.db
+.DS_Store
+
+# Se quiser ignorar automaticamente outputs em notebooks (opcional)
+# *.ipynb outputs cleaning pode ser feito usando nbstripout se preferir
